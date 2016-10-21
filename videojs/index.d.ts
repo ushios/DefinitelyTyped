@@ -50,13 +50,13 @@ interface VideoJSPlayer {
 	off(eventName: string): void;
 	off(): void;
 	dispose(): void;
-	addRemoteTextTrack(options : {}) : HTMLTrackElement;
-	removeRemoteTextTrack(track : HTMLTrackElement) : void;
-	poster(val?: string) : string|VideoJSPlayer;
+	addRemoteTextTrack(options: {}): HTMLTrackElement;
+	removeRemoteTextTrack(track: HTMLTrackElement): void;
+	poster(val?: string): string|VideoJSPlayer;
 }
 
 interface VideoJSStatic {
 	(id: any, options?: VideoJSOptions, ready?: () => void): VideoJSPlayer;
 }
 
-declare var videojs:VideoJSStatic;
+declare var videojs: VideoJSStatic;

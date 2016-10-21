@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "definition-tester": "next",
-    "typescript": "next"
+    "tslint": "4.0.0-dev.0",
+    "typescript": "2.0.3"
   }
 }

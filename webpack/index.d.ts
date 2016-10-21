@@ -229,7 +229,7 @@ declare namespace webpack {
         loaders?: string[];
         query?: {
             [name: string]: any;
-        }
+        };
     }
 
     interface Plugin { }
@@ -361,7 +361,7 @@ declare namespace webpack {
     }
 
     interface ContextReplacementPluginStatic {
-        new (resourceRegExp: any, newContentResource?: any, newContentRecursive?: any, newContentRegExp?: any): Plugin
+        new (resourceRegExp: any, newContentResource?: any, newContentRecursive?: any, newContentRegExp?: any): Plugin;
     }
 
     interface IgnorePluginStatic {
@@ -425,7 +425,7 @@ declare namespace webpack {
             new (): Plugin;
         }
         interface LimitChunkCountPluginStatic {
-            new (options: any): Plugin
+            new (options: any): Plugin;
         }
         interface MinChunkSizePluginStatic {
             new (options: any): Plugin;
@@ -530,7 +530,7 @@ declare namespace webpack {
             colors?: boolean;
         }
 
-        type CompilerCallback = (err: Error, stats: Stats) => void
+        type CompilerCallback = (err: Error, stats: Stats) => void;
     }
 }
 
