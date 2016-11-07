@@ -12,23 +12,13 @@
     "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
   },
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">= 6.9.1"
   },
   "scripts": {
-    "test": "dt --all",
-    "changes": "dt --changes",
-    "lint": "dt --lint",
-    "tscparams": "dt --tscparams --no-tests --no-headers",
-    "all": "dt",
-    "dry": "dt --dry --changes",
-    "list": "dt --dry --print-files --print-refmap",
-    "last": "dt --dry --print-files --print-refmap --changes",
-    "files": "dt --dry --print-files",
-    "refmap": "dt --dry --print-refmap",
-    "help": "dt -h"
+    "test": "node node_modules/types-publisher/bin/tester/test.js"
   },
   "devDependencies": {
-    "definition-tester": "next",
+    "types-publisher": "Microsoft/types-publisher",
     "tslint": "4.0.0-dev.1",
     "typescript": "2.0.3"
   }
