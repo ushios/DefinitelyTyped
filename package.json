@@ -18,8 +18,6 @@
     "test": "node node_modules/types-publisher/bin/tester/test.js"
   },
   "devDependencies": {
-    "types-publisher": "Microsoft/types-publisher",
-    "tslint": "4.0.0-dev.1",
-    "typescript": "2.0.3"
+    "types-publisher": "Microsoft/types-publisher#production"
   }
 }
