@@ -3,8 +3,6 @@
 // Definitions by: UshioShugo <https://github.com/ushios>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-// Imported from: https://github.com/soywiz/typescript-node-definitions/aws-sdk.d.ts
-
 /// <reference types="node" />
 
 declare module 'newrelic' {
